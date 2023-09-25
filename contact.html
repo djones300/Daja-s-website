@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Daja Jones September 24th 2023 Fall 2023-->
+        <title>Daja's contact page</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Form</h1>
+        </header>
+        <nav>
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="page1.html">Hobbies and Interests</a></li>
+                <li><a href="contact.html">Contact Form</a></li>
+                <li><a href="validation.html">Validation page</a></li>
+            </ul>
+        </nav>
+        <br>
+        <!--This is a form asking for the name, number, email
+        and preferred social media.-->
+            <form>
+                <div>
+                    <label for="fullName">Name:</label>
+                    <input type="text" id="fullName" name="fullName">
+                </div>
+                <br>
+                <div>
+                    <label for="phoneNumber">Phone Number:</label> 
+                    <input type="tel" id="phoneNumber" name="phoneNumber">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email address:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <br>
+                <div>
+                    <p>Which social media do you prefer?</p>
+                   <input type="radio" id="linkedin" name="social_media" value="LinkedIn">
+                   <label for="linkedin">LinkedIn</label>
+                   <input type="radio" id="instagram" name="social_media" value="Instagram">
+                   <label for="instagram">Instagram</label>
+                   <input type="radio" id="x" name="social_media" value="X">
+                   <label for="x">X (formerly Twitter)</label>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message me:</label>
+                    <textarea id="message" name="message" rows="3" cols="50"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="submit">
+                </div>
+            </form>    
+    </body>    
+</html>
